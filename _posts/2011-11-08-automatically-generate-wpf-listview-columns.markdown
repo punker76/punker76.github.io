@@ -8,7 +8,7 @@ tags:       [WPF,Xaml,C#,StackOverflow]
 ---
 
 Sometimes it's not necessary to display a list of elements with a `DataGrid`, for a simple short way we can use the lighter `ListView`.
-My solution, also posted at [stackoverflow](http://stackoverflow.com/a/8050721/920384), generates a `ListView` with columns for all properties with a given datatype automatically.
+My solution, also posted at [stackoverflow](https://stackoverflow.com/a/8050721/920384), generates a `ListView` with columns for all properties with a given datatype automatically.
 
 ```csharp
 public class BaseListView : ListView
@@ -40,12 +40,12 @@ public class BaseListView : ListView
       {
         continue;
       }
-      
+
       var binding = new Binding { Path = new PropertyPath(pi.Name), Mode = BindingMode.OneWay };
       var gridViewColumn = new GridViewColumn() { Header = pi.Name, DisplayMemberBinding = binding };
       gridView.Columns.Add(gridViewColumn);
     }
-    
+
     lv.View = gridView;
   }
 }

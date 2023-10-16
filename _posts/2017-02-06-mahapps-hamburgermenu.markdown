@@ -7,7 +7,7 @@ categories: [Develop,MahApps.Metro]
 tags:       [WPF,UWP,Xaml,C#,UI,MahApps.Metro,HamburgerMenu]
 ---
 
-Since v1.4.0 of [MahApps.Metro](http://mahapps.com) contains now a `HamburgerMenu` control which is mostly the same as the one from the [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit). So it should work in most cases like this, only the UWP specific part doesn't work or has similar functionality. Take a look at the [official documentation](http://docs.uwpcommunitytoolkit.com/en/master/controls/HamburgerMenu/) for the `UWP` control to learn more about.
+Since v1.4.0 of [MahApps.Metro](https://mahapps.com) contains now a `HamburgerMenu` control which is mostly the same as the one from the [UWP Community Toolkit](https://github.com/Microsoft/UWPCommunityToolkit). So it should work in most cases like this, only the UWP specific part doesn't work or has similar functionality. Take a look at the [official documentation](https://docs.uwpcommunitytoolkit.com/en/master/controls/HamburgerMenu/) for the `UWP` control to learn more about.
 
 In this blog post I'll show you how it works in `MahApps.Metro`.
 

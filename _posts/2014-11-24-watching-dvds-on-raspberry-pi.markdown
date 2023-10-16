@@ -7,43 +7,43 @@ categories: [Hardware,IoT,Tips&Tricks]
 tags:       [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
 ---
 
-If you want watching DVDs on your [Raspberry Pi](http://www.raspberrypi.org) with an installed [OpenELEC](http://openelec.tv), [Raspbmc](http://www.raspbmc.com) or [XBian](http://xbian.org) you must buy a [MPEG-2](http://www.raspberrypi.com) licence. But not afraid, it's only a minimal amount.
+If you want watching DVDs on your [Raspberry Pi](https://www.raspberrypi.org) with an installed [OpenELEC](https://openelec.tv), [Raspbmc](https://www.raspbmc.com) or [XBian](https://xbian.org) you must buy a [MPEG-2](https://www.raspberrypi.com) licence. But not afraid, it's only a minimal amount.
 
 To get your licence you need the device's internal 16-digit serial number (not the number printed on your board).
 
-So go to your favorite console and connect your Raspberry Pi through ssh (I show you the steps by using [Cmder](http://bliker.github.io/cmder), a Raspberry Pi B+ and an installed OpenELEC image).
+So go to your favorite console and connect your Raspberry Pi through ssh (I show you the steps by using [Cmder](https://cmder.app/), a Raspberry Pi B+ and an installed OpenELEC image).
 
 ```bash
-λ ssh root@192.168.1.19                                    
-root@192.168.1.19's password: XYZ                             
+λ ssh root@192.168.1.19
+root@192.168.1.19's password: XYZ
 
-##############################################             
-# OpenELEC - The living room PC for everyone #             
-# ...... visit http://www.openelec.tv ...... #             
-##############################################             
-                                                           
-OpenELEC (official) Version: 4.2.1                         
+##############################################
+# OpenELEC - The living room PC for everyone #
+# ...... visit https://www.openelec.tv ...... #
+##############################################
 
-OpenELEC:~ # cat /proc/cpuinfo                             
+OpenELEC (official) Version: 4.2.1
 
-processor       : 0                                        
-model name      : ARMv6-compatible processor rev 7 (v6l)   
+OpenELEC:~ # cat /proc/cpuinfo
+
+processor       : 0
+model name      : ARMv6-compatible processor rev 7 (v6l)
 Features        : swp half thumb fastmult vfp edsp java tls
-CPU implementer : 0x41                                     
-CPU architecture: 7                                        
-CPU variant     : 0x0                                      
-CPU part        : 0xb76                                    
-CPU revision    : 7                                        
-                                                           
-Hardware        : BCM2708                                  
-Revision        : 0010                                     
-Serial          : 00000000XXXXXXXX <-- the serial number                        
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xb76
+CPU revision    : 7
 
-OpenELEC:~ #                                               
+Hardware        : BCM2708
+Revision        : 0010
+Serial          : 00000000XXXXXXXX <-- the serial number
+
+OpenELEC:~ #
 ```
 > Another way to get the serial number is: `SYSTEM`->`Systeminfo`->`Hardware`
 
-Now you can buy your licence at [raspberrypi.com](http://www.raspberrypi.com) with this serial number and put the licence keys in the config.txt of your linux distribution.
+Now you can buy your licence at [raspberrypi.com](https://www.raspberrypi.com) with this serial number and put the licence keys in the config.txt of your linux distribution.
 
 To do this on `OpenELEC` (connected via ssh) follow these steps:
 
@@ -64,7 +64,7 @@ OpenELEC:~ # nano /flash/config.txt
 ```bash
 ################################################################################
 # License keys to enable GPU hardware decoding for various codecs
-# to obtain keys visit the shop at http://www.raspberrypi.com
+# to obtain keys visit the shop at https://www.raspberrypi.com
 ################################################################################
 
 # decode_MPG2=0x00000000

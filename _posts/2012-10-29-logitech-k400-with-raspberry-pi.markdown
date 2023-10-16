@@ -7,18 +7,18 @@ categories: [Hardware,IoT,Tips&Tricks]
 tags:       [Raspberry Pi,OpenELEC,Raspbmc,XBian,XMBC]
 ---
 
-Sometimes the [debian wheezy raspbian](http://www.raspberrypi.org/downloads) image, [Raspbmc](http://www.raspbmc.com) and [XBian](http://xbian.org) can't find my Logitech K400 keyboard. This tip should help.
+Sometimes the [debian wheezy raspbian](https://www.raspberrypi.org/downloads) image, [Raspbmc](https://www.raspbmc.com) and [XBian](https://xbian.org) can't find my Logitech K400 keyboard. This tip should help.
 
 - Put this lines in the `/etc/rc.local`
-  
+
   ```bash
   sleep 5
   rmmod hid-logitech-dj
   modprobe hid-logitech-dj
   ```
-  
+
 - If you have german language problems with LXDE, then put this line in your `/etc/xdg/lxsession/LXDE/autostart`
-  
+
   ```bash
   setxkbmap -layout "de,de"
   ```

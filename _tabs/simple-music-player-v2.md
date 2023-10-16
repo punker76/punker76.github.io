@@ -15,7 +15,7 @@ order: 7
 [![Build status](https://img.shields.io/appveyor/ci/punker76/simple-music-player/master.svg?style=flat-square)](https://ci.appveyor.com/project/punker76/simple-music-player/branch/master)
 [![Twitter](https://img.shields.io/badge/twitter-%40punker76-55acee.svg?style=flat-square)](https://twitter.com/punker76)
 
-This is the next version of my simple music player ([SimpleMP](http://jkarger.de/simple-music-player/))
+This is the next version of my simple music player ([SimpleMP](https://jkarger.de/simple-music-player/))
 
 **SimpleMP** or **Simple Music Player** is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a very simple way, just drag&drop your files or folders on the main screen and start push play...
 
@@ -61,7 +61,7 @@ It's not perfect and many function not yet implemented.
 - [v1.9.1](https://github.com/punker76/simple-music-player/releases/tag/v1.9.1)
 - [v1.9.0.14](https://github.com/punker76/simple-music-player/releases/tag/v1.9.0.14)
 - [v1.9.0.13](https://github.com/punker76/simple-music-player/releases/tag/v1.9.0.13)
-- [v1.1.7.2](http://jkarger.de/simple-music-player/)
+- [v1.1.7.2](https://jkarger.de/simple-music-player/)
 
 ## Awesome libs that I use
 
@@ -71,9 +71,9 @@ It's not perfect and many function not yet implemented.
 - [Font-Awesome-WPF](https://github.com/charri/Font-Awesome-WPF) FontAwesome controls for WPF from @charri
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
 - [NLog](https://github.com/NLog/NLog)
-- [QuickIO.NET](http://quickio.azurewebsites.net/)
+- [QuickIO.NET](https://quickio.azurewebsites.net/)
 - [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
-- [Rx (Reactive Extensions)](http://rx.codeplex.com/)
+- [Rx (Reactive Extensions)](https://rx.codeplex.com/)
 - [Splat](https://github.com/paulcbetts/splat)
 - [TinyIoC](https://github.com/grumpydev/TinyIoC)
 - [xunit](https://github.com/xunit/xunit)
@@ -82,9 +82,9 @@ It's not perfect and many function not yet implemented.
 
 Most Icons are taken (inspired) from (thx @Templarian)
 
-- [Windows Icons](https://github.com/Templarian/WindowsIcons) -> [modernuiicons](http://modernuiicons.com)
-- [Material Design](https://github.com/Templarian/MaterialDesign) -> [materialdesignicons.com](http://materialdesignicons.com/)
-- [Metrize Icons](http://www.alessioatzeni.com/metrize-icons/) by [Alessio Atzeni](https://twitter.com/Bluxart) @Bluxart
+- [Windows Icons](https://github.com/Templarian/WindowsIcons) -> [modernuiicons](https://modernuiicons.com)
+- [Material Design](https://github.com/Templarian/MaterialDesign) -> [materialdesignicons.com](https://materialdesignicons.com/)
+- [Metrize Icons](https://www.alessioatzeni.com/metrize-icons/) by [Alessio Atzeni](https://twitter.com/Bluxart) @Bluxart
 
 ## Screen shots (milestones)
 
@@ -140,7 +140,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-<http://opensource.org/licenses/MIT/>
+<https://opensource.org/licenses/MIT/>
 
 ### FMOD Ex SoundSystem
 

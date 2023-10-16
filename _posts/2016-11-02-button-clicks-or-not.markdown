@@ -9,7 +9,7 @@ tags:       [WPF,Xaml,C#,UI,MahApps.Metro,StackOverflow]
 
 How can I prevent a Button click if there is another clickable Control inside the Button?
 
-I've got this question now two times, one at [stackoverflow](http://stackoverflow.com/q/40344271/920384) and the other one at [MahApps.Metro](https://github.com/MahApps/MahApps.Metro/issues/2732).
+I've got this question now two times, one at [stackoverflow](https://stackoverflow.com/q/40344271/920384) and the other one at [MahApps.Metro](https://github.com/MahApps/MahApps.Metro/issues/2732).
 
 The solution is quite simple. You can handle this behavior at the Button's click event.
 
@@ -85,4 +85,4 @@ This sample uses the `MahApps.Metro` library, so if you want to test this code y
 </StackPanel>
 ```
 
-![]({{ site.url }}/images/clickable.gif)  
+![]({{ site.url }}/images/clickable.gif)

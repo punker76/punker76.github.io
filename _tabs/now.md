@@ -28,7 +28,7 @@ My day time goes on these things:
 
 Here is a short list of open source projects where I'm doing some stuff (or spent some time to it).
 
-- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) A framework that allows developers to cobble together a better UI for their own `WPF` applications with minimal effort. [http://mahapps.com](http://mahapps.com/)
+- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) A framework that allows developers to cobble together a better UI for their own `WPF` applications with minimal effort. [https://mahapps.com](https://mahapps.com/)
 - [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) Awesome icon packs for `WPF` and `UWP` in one library
 - [MahApps.Metro.SimpleChildWindow](https://github.com/punker76/MahApps.Metro.SimpleChildWindow) A simple child window for MahApps.Metro
 - [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
@@ -39,7 +39,7 @@ I'm also help(ed) and contribute(d) to these awesome projects.
 
 - [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) A delicious GUI for Chocolatey. Chocolatey GUI is an user interface for [Chocolatey](https://chocolatey.org/) (the Machine Package Manager for Windows).
 - [Hardcodet NotifyIcon](https://github.com/hardcodet/wpf-notifyicon) for WPF. NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform
-- [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) Google Material Design in XAML & WPF, for C# & VB.Net [http://materialdesigninxaml.net](http://materialdesigninxaml.net/)
+- [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) Google Material Design in XAML & WPF, for C# & VB.Net [https://materialdesigninxaml.net](https://materialdesigninxaml.net/)
 
 ## Currently working on
 
@@ -84,7 +84,7 @@ You can find me on
 
 - [Twitter](https://twitter.com/punker76)
 - [GitHub](https://github.com/punker76)
-- [Stack Overflow](http://stackoverflow.com/users/920384/punker76?tab=profile), [CV](http://stackoverflow.com/cv/punker76)
+- [Stack Overflow](https://stackoverflow.com/users/920384/punker76?tab=profile), [CV](https://stackoverflow.com/cv/punker76)
 - or in [real life](https://en.wikipedia.org/wiki/Real_life)
 
 ## Note

@@ -16,7 +16,7 @@ As a **MahApps.Metro** member I'am often confronted with questions like:
 > Where is the shadow around the main window?
 
 
-Now I could say, hey, we have a nice [web page](http://mahapps.com) where you can look at the [quick start guide](http://mahapps.com/guides/quick-start.html), but I want to help users/developers everywhere.
+Now I could say, hey, we have a nice [web page](https://mahapps.com) where you can look at the [quick start guide](https://mahapps.com/docs/guides/quick-start), but I want to help users/developers everywhere.
 
 So, this article will show you how fast it is to get a modern UI using MahApps.Metro.
 
@@ -31,7 +31,7 @@ First let's create an empty WPF project with some simple controls.
         Title="MainWindow"
         Height="350" Width="525">
     <Grid>
-        
+
         <StackPanel VerticalAlignment="Center">
             <TextBlock Text="Modern UI with MahApps.Metro" HorizontalAlignment="Center" FontSize="30" />
             <Button Content="Click Me..." HorizontalAlignment="Left" Margin="5" />
@@ -176,10 +176,10 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
-                      
+
                       BorderBrush="{DynamicResource AccentColorBrush}"
                       BorderThickness="1"
-                      
+
                       Height="350" Width="525">
 
 </Controls:MetroWindow>
@@ -191,9 +191,9 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
-                      
+
                       GlowBrush="{DynamicResource AccentColorBrush}"
-                      
+
                       Height="350" Width="525">
 
 </Controls:MetroWindow>
@@ -205,10 +205,10 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
-                      
+
                       EnableDWMDropShadow="True"
                       ResizeMode="CanResizeWithGrip"
-                      
+
                       Height="350" Width="525">
 
 </Controls:MetroWindow>
@@ -222,9 +222,9 @@ There is another clean window style for your application. Put only the `CleanWin
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
-                      
+
                       Style="{DynamicResource CleanWindowStyleKey}"
-                      
+
                       Height="350" Width="525">
     <Window.Resources>
         <ResourceDictionary>
@@ -245,9 +245,9 @@ A simple style that looks like `Visual Studio`. To get this, put only the `VSWin
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
-                      
+
                       Style="{DynamicResource VSWindowStyleKey}"
-                      
+
                       Height="350" Width="525">
     <Window.Resources>
         <ResourceDictionary>

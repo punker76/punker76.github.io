@@ -17,8 +17,8 @@ Exception thrown: 'System.Windows.Markup.XamlParseException' in PresentationFram
 
 So, here are two blog articles which explain the problem and also explain a solution:
 
-- [Launching a WPF Window in a Separate Thread](http://reedcopsey.com/2011/11/28/launching-a-wpf-window-in-a-separate-thread-part-1/) by Reed Copsey, Jr.
-- [Threading model in WPF and application resources](http://sergey-yatsenko.blogspot.de/2010/09/threading-model-in-wpf-and-application.html) by Sergey Yatsenko
+- [Launching a WPF Window in a Separate Thread](https://reedcopsey.com/2011/11/28/launching-a-wpf-window-in-a-separate-thread-part-1/) by Reed Copsey, Jr.
+- [Threading model in WPF and application resources](https://sergey-yatsenko.blogspot.de/2010/09/threading-model-in-wpf-and-application.html) by Sergey Yatsenko
 
 Here is my solution with MahApps.Metro that works on my machine™.
 
