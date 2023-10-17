@@ -1,5 +1,6 @@
 ---
 layout   : post
+name     : simple-music-player-v1.md
 title    : "Simple Music Player"
 date     : 2012-10-29 14:33
 comments : true
