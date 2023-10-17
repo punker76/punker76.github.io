@@ -1,5 +1,7 @@
 # The Site Configuration
 
+repository: punker76/punker76.github.io
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
