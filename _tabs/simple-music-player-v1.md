@@ -1,12 +1,11 @@
 ---
-layout   : post
-name     : simple-music-player-v1.md
-title    : "Simple Music Player"
-date     : 2012-10-29 14:33
-comments : true
-toc      : true
-permalink: /simple-music-player/
-order: 6
+layout       : post
+title        : "Simple Music Player"
+date         : 2012-10-29 14:33
+comments     : true
+toc          : true
+redirect_from: /simple-music-player
+order        : 6
 ---
 
 ![Main Window with spectrum](/assets/img/simplemp/main002.png){: .shadow}

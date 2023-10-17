@@ -1,11 +1,10 @@
 ---
-layout   : post
-title    : "Simple Music Player v2.0"
-date     : 2016-11-19 14:23
-comments : true
-toc      : true
-permalink: /simple-music-player-v2/
-order: 7
+layout  : post
+title   : "Simple Music Player v2.0"
+date    : 2016-11-19 14:23
+comments: true
+toc     : true
+order   : 7
 ---
 
 ![icon](https://raw.github.com/punker76/simple-music-player/master/icon/Gramaphone48x48.png){: .left}
