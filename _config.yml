@@ -40,11 +40,14 @@ social:
   email: punkerat76@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/punker76 # change to your twitter homepage
     - https://github.com/punker76 # change to your github homepage
+    - https://twitter.com/punker76 # change to your twitter homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.nuget.org/profiles/punker76
+    - https://mvp.microsoft.com/en-US/mvp/profile/fd3a095c-7733-e611-8129-c4346bac7bfc
+    - https://stackoverflow.com/users/920384/punker76
+    - https://www.linkedin.com/in/punker76
+    - https://www.facebook.com/punker76
 
 google_site_verification: # fill in to your verification string
 
