@@ -26,7 +26,7 @@ You can see it's not possible to set a top or bottom `Margin`, cause it doesn't 
 
 Now it's not necessary to set the width via binding to the actual width of the `FlyoutsControl`. And it's also possible to set all values of the `Margin`.
 
-### Flyout with left and top Margin
+## Flyout with left and top Margin
 
 ```xml
 <Controls:Flyout x:Name="settingsFlyout"
@@ -36,11 +36,11 @@ Now it's not necessary to set the width via binding to the actual width of the `
                  Position="Right" />
 ```
 
-![]({{ site.url }}/images/flyout01.png)
+![Flyout sample 1](/assets/img/flyout01.png){: .shadow}
 
-![]({{ site.url }}/images/flyout02.png)
+![Flyout sample 2](/assets/img/flyout02.png){: .shadow}
 
-### Flyout which covers the whole window
+## Flyout which covers the whole window
 
 ```xml
 <Controls:Flyout CloseButtonIsCancel="True"
@@ -49,4 +49,4 @@ Now it's not necessary to set the width via binding to the actual width of the `
                  Position="Right" />
 ```
 
-![]({{ site.url }}/images/flyout03.png)
+![Flyout sample 3](/assets/img/flyout03.png){: .shadow}

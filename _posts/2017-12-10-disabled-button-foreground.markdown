@@ -17,9 +17,7 @@ If you use a `Button` with a different `Foreground` brush then the original and 
 </Button>
 ```
 
-<p align="left">
-  <img src="{{ site.url }}/images/disabledbutton01.png">
-</p>
+![Disabled button 1](/assets/img/disabledbutton01.png){: .shadow}
 
 You can see that the blue `Foreground` is still shown. But, there are now two ways to solve this.
 
@@ -37,9 +35,7 @@ The first solution is to use a `ContentTemplate` for the custom content, cause t
 </Button>
 ```
 
-<p align="left">
-  <img src="{{ site.url }}/images/disabledbutton02.png">
-</p>
+![Disabled button 2](/assets/img/disabledbutton02.png){: .shadow}
 
 ## Solution 2
 
@@ -62,9 +58,7 @@ The second solution is to use a style for the `Button` which sets the `Foregroun
 </Style>
 ```
 
-<p align="left">
-  <img src="{{ site.url }}/images/disabledbutton02.png">
-</p>
+![Disabled button 2](/assets/img/disabledbutton02.png){: .shadow}
 
 ## Where it came from
 
@@ -80,9 +74,7 @@ This issue was reported at [MahApps.Metro](https://github.com/MahApps/MahApps.Me
 </Trigger>
 ```
 
-<p align="left">
-  <img src="{{ site.url }}/images/disabledbutton03.png">
-</p>
+![Disabled button 3](/assets/img/disabledbutton03.png){: .shadow}
 
 For this simple sample I used the [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks).
 

@@ -8,7 +8,7 @@ permalink: /simple-music-player/
 order: 6
 ---
 
-![Main Window with spectrum]({{ site.url }}/simplemp/images/main002.png)  
+![Main Window with spectrum](/assets/img/simplemp/main002.png){: .shadow}
 
 ## Was ist SimpleMP?
 
@@ -54,22 +54,22 @@ Für diesen Player gibt es keine Todo's mehr. Ich habe mit Delphi 5 angefangen b
 
 ## Screenshots
 
-![Main Window]({{ site.url }}/simplemp/images/main001.png)  
+![Main Window](/assets/img/simplemp/main001.png){: .shadow}
 
-![Main Window with spectrum]({{ site.url }}/simplemp/images/main002.png)  
+![Main Window with spectrum](/assets/img/simplemp/main002.png){: .shadow}
 
-![Media list]({{ site.url }}/simplemp/images/02_medialist.png)  
+![Media list](/assets/img/simplemp/02_medialist.png){: .shadow}
 
-![Play list]({{ site.url }}/simplemp/images/03_playlist.png)  
+![Play list](/assets/img/simplemp/03_playlist.png){: .shadow}
 
-![Stream list]({{ site.url }}/simplemp/images/04_streamlist.png)  
+![Stream list](/assets/img/simplemp/04_streamlist.png){: .shadow}
 
-![Equalizer]({{ site.url }}/simplemp/images/05_equalizer.png)  
+![Equalizer](/assets/img/simplemp/05_equalizer.png){: .shadow}
 
-![Settings]({{ site.url }}/simplemp/images/settings001.png)  
+![Settings](/assets/img/simplemp/settings001.png){: .shadow}
 
-![Directory configuration]({{ site.url }}/simplemp/images/defdir003.png)  
+![Directory configuration](/assets/img/simplemp/defdir003.png){: .shadow}
 
-![Column configuration]({{ site.url }}/simplemp/images/configcols001.png)  
+![Column configuration](/assets/img/simplemp/configcols001.png){: .shadow}
 
-![Color configuration]({{ site.url }}/simplemp/images/configcolor001.png)  
+![Color configuration](/assets/img/simplemp/configcolor001.png){: .shadow}

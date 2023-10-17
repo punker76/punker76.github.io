@@ -13,9 +13,7 @@ The `GridLength` for `ColumnDefinition` or `RowDefinition` can be `GridUnitType.
 
 Here is a simple sample which demonstrates the usage of `GridUnitType.Star` and `GridUnitType.Auto`
 
-<div align="center">
-    <img src="{{ site.url }}/images/gridlength01.png">
-</div>
+![GridLength sample 1](/assets/img/gridlength01.png){: .shadow}
 
 ```xml
 <Grid>
@@ -39,9 +37,7 @@ Here is a simple sample which demonstrates the usage of `GridUnitType.Star` and 
 
 If the control on the row with `GridUnitType.Auto` will be collapsed then the complete row is gone.
 
-<div align="center">
-    <img src="{{ site.url }}/images/gridlength02.png">
-</div>
+![GridLength sample 2](/assets/img/gridlength02.png){: .shadow}
 
 ```xml
 <Grid>
@@ -65,9 +61,7 @@ If the control on the row with `GridUnitType.Auto` will be collapsed then the co
 
 But what, if it's necessary to use `GridUnitType.Star` for rows and columns and want to collapse it? Uups, they are **not** collapsed, they still shown with the given value and space.
 
-<div align="center">
-    <img src="{{ site.url }}/images/gridlength03.png">
-</div>
+![GridLength sample 3](/assets/img/gridlength03.png){: .shadow}
 
 ```xml
 <Grid>
@@ -161,11 +155,8 @@ You need now 2 variations to solve our problem, one converter for the row height
 </Grid>
 ```
 
-<div align="center">
-    <img src="{{ site.url }}/images/gridlength04.png">
-    <br />
-    <br />
-    <img src="{{ site.url }}/images/gridlength05.png">
-</div>
+![GridLength sample 4](/assets/img/gridlength04.png){: .shadow}
+
+![GridLength sample 5](/assets/img/gridlength05.png){: .shadow}
 
 Happy coding!

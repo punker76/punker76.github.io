@@ -11,17 +11,22 @@ tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 
 You can change the accent or theme of a `MahApps.Metro` application in different ways.
 
-All of `MahApps.Metro's` accents and themes are contained within separate resource dictionaries (**Make sure that all file names are spelled correct. They are Case Sensitive!**).
+All of `MahApps.Metro's` accents and themes are contained within separate resource dictionaries.
+
+> Make sure that all file names are spelled correct. They are Case Sensitive!
+{: .prompt-danger }
 
 You can choose between this available accents
 
-> "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna"
+> `Red`, `Green`, `Blue`, `Purple`, `Orange`, `Lime`, `Emerald`, `Teal`, `Cyan`, `Cobalt`, `Indigo`, `Violet`, `Pink`, `Magenta`, `Crimson`, `Amber`, `Yellow`, `Brown`, `Olive`, `Steel`, `Mauve`, `Taupe`, `Sienna`
+{: .prompt-info }
 
 and themes
 
-> "BaseLight", "BaseDark"
+> `BaseLight`, `BaseDark`
+{: .prompt-info }
 
-### via App.xaml
+## via App.xaml
 
 The fastest way is to specify the accent and theme via the `App.xaml`.
 
@@ -47,9 +52,9 @@ The fastest way is to specify the accent and theme via the `App.xaml`.
 </Application>
 ```
 
-![]({{ site.url }}/images/mahapps_themes_01.png)
+![Themed window](/assets/img/mahapps_themes_01.png){: .shadow}
 
-### via ThemeManager
+## via ThemeManager
 
 `MahApps.Metro` has a `ThemeManager` to change accent and theme at code behind. You can easily changing accent or theme with a two liner.
 
@@ -72,7 +77,7 @@ public partial class App : Application
 }
 ```
 
-### A Window different to Application
+## A Window different to Application
 
 With `MahApps.Metro` you can have a different accent and theme for a `MetroWindow`. The main window or any other `MetroWindow` ceep their specified accent and theme through the `App.xaml`.
 
@@ -104,7 +109,7 @@ public partial class AccentStyleWindow : MetroWindow
 }
 ```
 
-### Custom Accents and Themes
+## Custom Accents and Themes
 
 Another nice feature of `MahApps.Metro` `ThemeManager` is to use custom created accents and themes or use a dynamically created accent and theme.
 
@@ -193,6 +198,6 @@ You can also create an accent resource dictionary dynamically by using a specifi
 
 A complete sample can be found on [GitHub](https://github.com/punker76/code-samples).
 
-![]({{ site.url }}/images/mahapps_themes_02.png)
+![Themed window from sample](/assets/img/mahapps_themes_02.png){: .shadow}
 
 ![mahapps_more_colors](https://cloud.githubusercontent.com/assets/658431/13557016/9d7e23a4-e3e7-11e5-839a-177c39977e8e.gif)

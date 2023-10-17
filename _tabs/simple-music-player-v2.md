@@ -8,16 +8,11 @@ permalink: /simple-music-player-v2/
 order: 7
 ---
 
-# ![icon](https://raw.github.com/punker76/simple-music-player/master/icon/Gramaphone48x48.png) Simple Music Player
-
-[![Gitter chat](https://badges.gitter.im/punker76/simple-music-player.png)](https://gitter.im/punker76/simple-music-player)  
-
-[![Build status](https://img.shields.io/appveyor/ci/punker76/simple-music-player/master.svg?style=flat-square)](https://ci.appveyor.com/project/punker76/simple-music-player/branch/master)
-[![Twitter](https://img.shields.io/badge/twitter-%40punker76-55acee.svg?style=flat-square)](https://twitter.com/punker76)
-
-This is the next version of my simple music player ([SimpleMP](https://jkarger.de/simple-music-player/))
+![icon](https://raw.github.com/punker76/simple-music-player/master/icon/Gramaphone48x48.png){: .left}
 
 **SimpleMP** or **Simple Music Player** is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a very simple way, just drag&drop your files or folders on the main screen and start push play...
+
+This is the next version of my simple music player ([SimpleMP](https://jkarger.de/simple-music-player/))
 
 Why another music player? When I decided to make my first player back in 2005, the Winamp 3 player was to buggy and very slow! I stopped developing in 2007.
 I used my favorite programming language Delphi 5 and I learned a lot of new stuff. It was a great time and a few people in the Delphi community honored my work :-)

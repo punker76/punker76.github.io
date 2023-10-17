@@ -20,7 +20,7 @@ Now I could say, hey, we have a nice [web page](https://mahapps.com) where you c
 
 So, this article will show you how fast it is to get a modern UI using MahApps.Metro.
 
-### Let's go
+## Let's go
 
 First let's create an empty WPF project with some simple controls.
 
@@ -58,26 +58,26 @@ namespace MahAppsMetroSample
 }
 ```
 
-![normal main window]({{ site.url }}/images/modernui_01.png)
+![normal main window](/assets/img/modernui_01.png){: .shadow }
 
 You can see that's not a nice UI, so let's change it.
 
 You can install the latest stable `MahApps.Metro` library via the NuGet GUI (right click on your project, click *Manage NuGet Packages*, select *Online* and search for *MahApps.Metro*) or with the Package Manager Console:
 
 ```powershell
-PM> Install-Package MahApps.Metro
+Install-Package MahApps.Metro
 ```
 
 If you need the latest alpha version, use this:
 
 ```powershell
-PM> Install-Package MahApps.Metro -Pre
+Install-Package MahApps.Metro -Pre
 ```
 
 Now you should see:
 
 ```powershell
-PM> Install-Package MahApps.Metro
+Install-Package MahApps.Metro
 Installing 'MahApps.Metro 0.14.0.0'.
 Successfully installed 'MahApps.Metro 0.14.0.0'.
 Adding 'MahApps.Metro 0.14.0.0' to MahAppsMetroSample.
@@ -86,13 +86,13 @@ Successfully added 'MahApps.Metro 0.14.0.0' to MahAppsMetroSample.
 
 After installing, open up `MainWindow.xaml` and put this reference attribute inside the opening `Window` tag:
 
-```xml
+```
 xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
 ```
 
 or
 
-```xml
+```
 xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
 ```
 
@@ -135,7 +135,10 @@ namespace MahAppsMetroSample
 }
 ```
 
-All of `MahApp.Metro's` resources are contained within separate resource dictionaries. In order to adopt the MahApps.Metro accent and theme for most of the controls , you will need to add the following ResourceDictionaries to your App.xaml (**Make sure that all file names are spelled correct. They are Case Sensitive!**).
+All of `MahApp.Metro's` resources are contained within separate resource dictionaries. In order to adopt the MahApps.Metro accent and theme for most of the controls , you will need to add the following ResourceDictionaries to your App.xaml.
+
+> Make sure that all file names are spelled correct. They are Case Sensitive!
+{: .prompt-danger }
 
 ```xml
 <Application x:Class="MahAppsMetroSample.App"
@@ -158,21 +161,23 @@ All of `MahApp.Metro's` resources are contained within separate resource diction
 
 The end result will look something like this:
 
-![modern ui main window]({{ site.url }}/images/modernui_02.png)
+![modern ui main window](/assets/img/modernui_02.png){: .shadow}
 
 You can choose between this available accents
 
-> "Red", "Green", "Blue", "Purple", "Orange", "Lime", "Emerald", "Teal", "Cyan", "Cobalt", "Indigo", "Violet", "Pink", "Magenta", "Crimson", "Amber", "Yellow", "Brown", "Olive", "Steel", "Mauve", "Taupe", "Sienna"
+> `Red`, `Green`, `Blue`, `Purple`, `Orange`, `Lime`, `Emerald`, `Teal`, `Cyan`, `Cobalt`, `Indigo`, `Violet`, `Pink`, `Magenta`, `Crimson`, `Amber`, `Yellow`, `Brown`, `Olive`, `Steel`, `Mauve`, `Taupe`, `Sienna`
+{: .prompt-info }
 
 and themes
 
-> "BaseLight", "BaseDark"
+> `BaseLight`, `BaseDark`
+{: .prompt-info }
 
-### Borders
+## Borders
 
 The `MetroWindow` has no border by default, but you can choose between 3 different borders.
 
-#### A normal border
+### A normal border
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
@@ -185,9 +190,9 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 </Controls:MetroWindow>
 ```
 
-![modern ui main window with a border]({{ site.url }}/images/modernui_03.png)
+![modern ui main window with a border](/assets/img/modernui_03.png){: .shadow}
 
-#### A glow border
+### A glow border
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
@@ -199,9 +204,9 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 </Controls:MetroWindow>
 ```
 
-![modern ui main window with a glow border]({{ site.url }}/images/modernui_04.png)
+![modern ui main window with a glow border](/assets/img/modernui_04.png){: .shadow}
 
-#### A drop shadow
+### A drop shadow
 
 ```xml
 <Controls:MetroWindow x:Class="MahAppsMetroSample.MainWindow"
@@ -214,9 +219,9 @@ The `MetroWindow` has no border by default, but you can choose between 3 differe
 </Controls:MetroWindow>
 ```
 
-![modern ui main window with drop shadow]({{ site.url }}/images/modernui_05.png)
+![modern ui main window with drop shadow](/assets/img/modernui_05.png){: .shadow}
 
-#### The clean window style
+### The clean window style
 
 There is another clean window style for your application. Put only the `CleanWindowStyleKey` inside the opening `MetroWindow` tag and use the `CleanWindow` resource.
 
@@ -237,9 +242,9 @@ There is another clean window style for your application. Put only the `CleanWin
 </Controls:MetroWindow>
 ```
 
-![modern ui main window with clean window style]({{ site.url }}/images/modernui_06.png)
+![modern ui main window with clean window style](/assets/img/modernui_06.png){: .shadow}
 
-#### The visual studio style
+### The visual studio style
 
 A simple style that looks like `Visual Studio`. To get this, put only the `VSWindowStyleKey` inside the opening `MetroWindow` tag and use the colors and style resource.
 
@@ -261,7 +266,7 @@ A simple style that looks like `Visual Studio`. To get this, put only the `VSWin
 </Controls:MetroWindow>
 ```
 
-![modern ui main window with vs window style]({{ site.url }}/images/modernui_07.png)
+![modern ui main window with vs window style](/assets/img/modernui_07.png){: .shadow}
 
 That's it!
 

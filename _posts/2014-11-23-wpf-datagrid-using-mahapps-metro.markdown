@@ -11,11 +11,11 @@ tags:       [WPF,Xaml,C#,UI,MahApps.Metro]
 
 So for showing the differences, here is the default look:
 
-![default style for DataGrid]({{ site.url }}/images/datagrid_01.png)
+![default style for DataGrid](/assets/img/datagrid_01.png){: .shadow}
 
 Now, if you use the `MahApps.Metro` style for the application, you get this result:
 
-![default style for DataGrid]({{ site.url }}/images/datagrid_02.png)
+![default style for DataGrid](/assets/img/datagrid_02.png){: .shadow}
 
 Looks awesome!
 
@@ -25,13 +25,13 @@ There is another style called `Azure` which can be used by
 <DataGrid Style="{DynamicResource AzureDataGrid}" />
 ```
 
-![default style for DataGrid]({{ site.url }}/images/datagrid_03.png)
+![default style for DataGrid](/assets/img/datagrid_03.png){: .shadow}
 
-### Removing the right gripper
+## Removing the right gripper
 
 There is an issue with the style, that can be very confused. The `DataGrid` has a right gripper at the column header without any functionality.
 
-![default style for DataGrid]({{ site.url }}/images/datagrid_04.png)
+![default style for DataGrid](/assets/img/datagrid_04.png){: .shadow}
 
 So how can it be removed? It's only possible to override the `DataGridColumnHeadersPresenter` globally.
 
@@ -52,7 +52,7 @@ So how can it be removed? It's only possible to override the `DataGridColumnHead
         </Setter.Value>
     </Setter>
 </Style>
- 
+
 <!-- for the azure style -->
 <Style TargetType="{x:Type DataGridColumnHeadersPresenter}">
     <Setter Property="Template">
@@ -72,6 +72,6 @@ So how can it be removed? It's only possible to override the `DataGridColumnHead
 </Style>
 ```
 
-![default style for DataGrid]({{ site.url }}/images/datagrid_05.png)
+![default style for DataGrid](datagrid_05.png){: .shadow}
 
 A complete example can be found on [GitHub](https://github.com/punker76/code-samples).

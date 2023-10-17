@@ -85,4 +85,4 @@ This sample uses the `MahApps.Metro` library, so if you want to test this code y
 </StackPanel>
 ```
 
-![]({{ site.url }}/images/clickable.gif)
+![Clickable button content](/assets/img/clickable.gif)

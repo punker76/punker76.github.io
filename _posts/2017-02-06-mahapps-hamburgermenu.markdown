@@ -13,7 +13,7 @@ In this blog post I'll show you how it works in `MahApps.Metro`.
 
 The `HamburgerMenu` is a `ContentControl` with an item list, an option item list on the left side and the content presenter on the right side. There are also some helper classes which makes it easier to work with the item lists: `HamburgerMenuItem`, `HamburgerMenuGlyphItem` and `HamburgerMenuImageItem`.
 
-![]({{ site.url }}/images/hamburgermenu01.png)
+![Hamburger menu](/assets/img/hamburgermenu01.png){: .shadow}
 
 ## For this sample you need only these steps
 

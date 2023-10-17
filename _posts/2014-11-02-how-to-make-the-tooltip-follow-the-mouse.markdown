@@ -40,7 +40,7 @@ private void Button_MouseMove(object sender, MouseEventArgs e)
 
 That's it.
 
-![button with tooltip]({{ site.url }}/images/button_tooltip.png)
+![button with tooltip](/assets/img/button_tooltip.png){: .shadow }
 
 ### The 'behavior' way
 

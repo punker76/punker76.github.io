@@ -9,6 +9,8 @@ tags:       [WPF,Xaml,C#,MahApps.Metro,IconPacks]
 
 The [IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) project contains already thousand of high quality icons which can be used with the `PackIcon` controls. But it's also possible to create a custom `PackIcon` class with your own awesome icons.
 
+![Sample](/assets/img/2019-04-02_11h00_14.png){: .shadow}
+
 So, to create a new icon pack follow these steps.
 
 ## Define a key (typically an enum)
@@ -203,8 +205,5 @@ Which can be then used like
 </Grid>
 ```
 
-The complete sample can be found [here on GitHub](https://github.com/punker76/WpfAppMahAppsIconPacks).
-
-<p align="left">
-  <img src="{{ site.url }}/images/2019-04-02_11h00_14.png">
-</p>
+> The complete sample can be found [here on GitHub](https://github.com/punker76/WpfAppMahAppsIconPacks).
+{: .prompt-info }
