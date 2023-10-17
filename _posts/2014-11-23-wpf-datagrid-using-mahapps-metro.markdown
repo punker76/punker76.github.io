@@ -72,6 +72,6 @@ So how can it be removed? It's only possible to override the `DataGridColumnHead
 </Style>
 ```
 
-![default style for DataGrid](datagrid_05.png){: .shadow}
+![default style for DataGrid](/assets/img/datagrid_05.png){: .shadow}
 
 A complete example can be found on [GitHub](https://github.com/punker76/code-samples).
