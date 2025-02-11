@@ -2,7 +2,7 @@
 # the default layout is 'page'
 layout: post
 title: Now
-date: 2021-05-19 22:00:00 +0100
+date: 2025-02-11 12:00:00 +0100
 # comments : true
 # permalink: /now
 toc: true
@@ -12,24 +12,25 @@ order: 5
 
 ## Short bio
 
-Hey, I'm Jan. I'm a husband with 3 wonderful kids and an amazing wife (and a dog, 2 cats...). I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42), but I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp). So Yes, I'm also a refugee!
+Hey 👋, I'm Jan. I'm a dad with 3 wonderful kids (and a dog, 2 cats...). I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42), but I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp). So Yes, I'm also a refugee!
 
-Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident. I'm using a pump from [Ypsomed](https://www.ypsomed.com/) and the [Dexcom G6 CGM](https://www.dexcom.com/) system.
+Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident. I'm using a pump from [Ypsomed](https://www.ypsomed.com/) and the [FreeStyle Libre 3](https://www.freestylelibre.de/). My next step is to use the [CamAPS FX](https://camdiab.com/) advanced adaptive hybrid closed-loop app.
 
 My day time goes on these things:
 
 - Family first
 - [Work](https://www.inform-software.com/)
-- Family
-- [Open source projects](https://github.com/)
-- Family
+- Family, free-time activities
+- [Open source projects](https://github.com/punker76)
 
-## Projects
+## My OSS Projects
 
 Here is a short list of open source projects where I'm doing some stuff (or spent some time to it).
 
-- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) A framework that allows developers to cobble together a better UI for their own `WPF` applications with minimal effort. [https://mahapps.com](https://mahapps.com/)
+- [IconPacks.Avalonia](https://github.com/MahApps/IconPacks.Avalonia) Awesome icon packs for Avalonia in one library. Supporting a wide range of platforms such as Windows, macOS, Linux, iOS, Android and WebAssembly.
+- [IconPacks.Browser](https://github.com/MahApps/IconPacks.Browser) The Browser for all available Icon packages from MahApps.Metro.IconPacks and IconPacks.Avalonia
 - [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) Awesome icon packs for `WPF` and `UWP` in one library
+- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) A framework that allows developers to cobble together a better UI for their own `WPF` applications with minimal effort. [https://mahapps.com](https://mahapps.com/)
 - [MahApps.Metro.SimpleChildWindow](https://github.com/punker76/MahApps.Metro.SimpleChildWindow) A simple child window for MahApps.Metro
 - [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) A drag'n'drop framework for WPF.
 - [Simple Music Player](https://github.com/punker76/simple-music-player) SimpleMP or Simple Music Player is a simple and easy to use music player for free. It plays the most common music files (mp3, ogg, wma, wav) in a simple way.
@@ -37,38 +38,37 @@ Here is a short list of open source projects where I'm doing some stuff (or spen
 
 I'm also help(ed) and contribute(d) to these awesome projects.
 
+- [Avalonia UI](https://avaloniaui.net/) Build apps for every device using .NET
+Harness the power of cross-platform .NET. One codebase, infinite possibilities.
 - [Chocolatey GUI](https://github.com/chocolatey/ChocolateyGUI) A delicious GUI for Chocolatey. Chocolatey GUI is an user interface for [Chocolatey](https://chocolatey.org/) (the Machine Package Manager for Windows).
 - [Hardcodet NotifyIcon](https://github.com/hardcodet/wpf-notifyicon) for WPF. NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform
 - [Material Design In XAML Toolkit](https://github.com/ButchersBoy/MaterialDesignInXamlToolkit) Google Material Design in XAML & WPF, for C# & VB.Net [https://materialdesigninxaml.net](https://materialdesigninxaml.net/)
 
-## Currently working on
+## Ongoing stuff
 
-- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) v3.0.0
-- [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) v2.4.0 / v3.0.0
-- [MahApps.Avalonia.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) for [Avalonia UI](https://avaloniaui.net/) the cross platform XAML Framework for .NET Framework, .NET Core and Mono
+- [MahApps.Metro](https://github.com/MahApps/MahApps.Metro) upgrade to v3.0.0
+- [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop) currently v4.0.0
 
-## Future (ongoing projects)
+## Future
 
-- Node, Javascript, Typescript, Angular, Electron, Vue.js ...
-- [Simple Music Player v2.0](https://github.com/punker76/simple-music-player)
-- [JeoAppardy](https://github.com/jan-2/JeoAppardy) with [Vue.js](https://vuejs.org/)
+- More time with Angular, Node, Javascript, Typescript, Vue.js ...
+- Maybe [Simple Music Player v2.0](https://github.com/punker76/simple-music-player)
+- Maybe [JeoAppardy](https://github.com/jan-2/JeoAppardy) with [Vue.js](https://vuejs.org/) or Avalonia UI
 - Half marathon (sometime)
-- Improving my poor English (it's terrible)
+- Improving my poor English
 - Learn Autodesk Fusion 360
 - 3D printing
 
 ## Other stuff
 
-- I love punk music and all other rocking stuff #PunksNotDead
-- Yes, I'm a Vinyl junkie
+- I love punk music, rock, ska, ... #PunksNotDead
+- I'm a Vinyl junkie / collector
 - I love reading criminal books
 - Arduino, Raspberry Pi, 3D printer interested
 - Since February 2021 I have a [Prusa Mini+ 3D printer](https://www.prusaprinters.org/)
-- Maybe a Nerd
+- Nerd
 
 ## Conferences
-
-In 2021/2022...
 
 ...on hold
 
@@ -76,15 +76,18 @@ In 2021/2022...
 
 I received the [MVP award](https://mvp.microsoft.com/de-de/PublicProfile/5001905) in Visual Studio and Development Technologies in 2015.
 
-Currently I received the MVP award for the fifth time, now in Windows Development.
+Currently I am still a MVP, in Windows Development.
 
 ## Contact
 
 You can find me on
 
-- [Twitter](https://twitter.com/punker76)
 - [GitHub](https://github.com/punker76)
 - [Stack Overflow](https://stackoverflow.com/users/920384/punker76?tab=profile), [CV](https://stackoverflow.com/cv/punker76)
+- [X (Twitter)](https://twitter.com/punker76)
+- [Mastodon (NRW)](https://nrw.social/@punker76)
+- [Bluesky](https://bsky.app/profile/punker76.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/punker76/)
 - or in [real life](https://en.wikipedia.org/wiki/Real_life)
 
 ## Note
