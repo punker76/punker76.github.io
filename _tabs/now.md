@@ -2,7 +2,7 @@
 # the default layout is 'page'
 layout: post
 title: Now
-date: 2025-02-11 12:00:00 +0100
+date: 2025-08-17 12:50:00 +0100
 # comments : true
 # permalink: /now
 toc: true
@@ -12,16 +12,11 @@ order: 5
 
 ## Short bio
 
-Hey 👋, I'm Jan. I'm a dad with 3 wonderful kids (and a dog, 2 cats...). I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42), but I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp). So Yes, I'm also a refugee!
+Hey 👋, I'm Jan. I'm a dad with 3 wonderful kids. I'm living and working in Germany by [Aachen](https://goo.gl/maps/YVPxbSf9SA42), but I was born in east Germany [GDR](https://goo.gl/maps/Epnt9NBgNZp). So Yes, I'm also a refugee!
 
-Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident. I'm using a pump from [Ypsomed](https://www.ypsomed.com/) and the [FreeStyle Libre 3](https://www.freestylelibre.de/). My next step is to use the [CamAPS FX](https://camdiab.com/) advanced adaptive hybrid closed-loop app.
+Since January 2015 I have [Diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1) which was diagnosed by pure accident. I'm using a pump from [Ypsomed](https://www.ypsomed.com/) and the [FreeStyle Libre 3](https://www.freestylelibre.de/). Now I'm using also the [CamAPS FX](https://camdiab.com/) advanced adaptive hybrid closed-loop app.
 
-My day time goes on these things:
-
-- Family first
-- [Work](https://www.inform-software.com/)
-- Family, free-time activities
-- [Open source projects](https://github.com/punker76)
+In my spare free time I'm working on some #OSS projects, try to run some kilometers or using my Editor bike from Cube.
 
 ## My OSS Projects
 
@@ -70,7 +65,7 @@ Harness the power of cross-platform .NET. One codebase, infinite possibilities.
 
 ## Conferences
 
-...on hold
+- [DevConf.NRW Barcamp](https://devconf.nrw/barcamp)
 
 ## MVP
 
