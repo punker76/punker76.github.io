@@ -4,7 +4,6 @@ layout: post
 title: Now
 date: 2025-08-17 12:50:00 +0100
 # comments : true
-# permalink: /now
 toc: true
 icon: fas fa-calendar
 order: 5
